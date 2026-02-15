@@ -1,1 +1,51 @@
+# Skill Sprint Implementation Plan: SQL Window Functions
+
+## Skill Chosen
+**SQL Window Functions**
+
+## Why I Chose This Skill
+SQL window functions are widely used in analytics, business intelligence, and data engineering. They allow analysts to calculate running totals, rankings, moving averages, and period‑over‑period comparisons without losing row‑level detail. This skill directly strengthens my ability to work with real‑world datasets and supports the type of analysis used in churn modeling, customer segmentation, and financial reporting.
+
+## Learning Objectives
+By the end of this sprint, I will be able to:
+- Understand the purpose and structure of window functions  
+- Use ranking functions such as `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`  
+- Use analytic functions such as `LAG()`, `LEAD()`, and `NTILE()`  
+- Apply aggregate window functions such as `SUM() OVER()` and `AVG() OVER()`  
+- Combine partitions and ordering to analyze customer‑level or time‑based data  
+
+## Resources I Will Use
+- Mode Analytics SQL tutorials  
+- W3Schools SQL Window Functions  
+- YouTube tutorials on ranking and analytic functions  
+- A free SQL sandbox (Mode, BigQuery public datasets, or SQLBolt)
+
+## Implementation Timeline
+
+### **Day 1 — Introduction**
+- Review what window functions are and why they’re used  
+- Learn the syntax for `OVER()`, `PARTITION BY`, and `ORDER BY`  
+
+### **Day 2 — Ranking Functions**
+- Practice `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`  
+- Apply ranking to sample customer or sales data  
+
+### **Day 3 — Analytic Functions**
+- Learn `LAG()` and `LEAD()` for period‑over‑period comparisons  
+- Practice identifying changes in customer behavior or billing  
+
+### **Day 4 — Aggregate Window Functions**
+- Use `SUM() OVER()` and `AVG() OVER()`  
+- Create running totals and moving averages  
+
+### **Day 5 — Mini‑Project + Reflection**
+- Apply all window functions to a small dataset  
+- Write a short reflection on what I learned  
+- Capture a screenshot of my SQL code or output  
+
+## How I Will Measure Success
+- I can write and explain at least five different window functions  
+- I can apply them to a real dataset without referencing notes  
+- I can interpret the results and explain when each function is appropriate  
+- I complete a small SQL practice project demonstrating the skill  
 
